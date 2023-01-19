@@ -13,14 +13,16 @@ import "../../styles/LandingPage/tailwind.css";
 const index = () => {
   new WOW().init();
   return (
-    <div>
-      <Header />
-      <Hero />
-      <Service />
-      <Feature />
-      <Team />
-      <Footer />
-    </div>
+    <body>
+      <main>
+        <Header />
+        <Hero />
+        <Service />
+        <Feature />
+        <Team />
+        <Footer />
+      </main>
+    </body>
   );
 };
 

@@ -4,14 +4,14 @@ const Feauture = () => {
   return (
     <div>
       {/* <!-- Feature Section Start --> */}
-      <div id="feature" className="bg-blue-100 py-24">
+      <div id="feature" className="bg-blue-100 py-44">
         <div className="container">
           <div className="flex flex-wrap items-center">
             <div className="w-full lg:w-1/2">
               <div className="mb-5 lg:mb-0">
                 <h2
                   className="mb-12 section-heading wow fadeInDown"
-                  data-wow-delay="0.3s"
+                  data-wow-delay="0.5s"
                 >
                   Learn More About Us
                 </h2>
@@ -24,12 +24,13 @@ const Feauture = () => {
                       </div>
                       <div className="features-content">
                         <h4 className="feature-title">
-                          Built with TailwindCSS
+                          Why connect with a mentor?
                         </h4>
-                        <p>
+                        <p className="text-base">
                           {" "}
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Veniam tempora quidem vel sint.
+                          Mentors in the Meet a Mentor community can help you
+                          answer a variety of questions related to your career,
+                          whatever stage you’re at.
                         </p>
                       </div>
                     </div>
@@ -41,10 +42,11 @@ const Feauture = () => {
                       </div>
                       <div className="features-content">
                         <h4 className="feature-title">Free to Use</h4>
-                        <p>
+                        <p className="text-base">
                           {" "}
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Veniam tempora quidem vel sint.
+                          Our platform offers free access to mentoring resources
+                          for all users, including profile creation, search, and
+                          connection features.
                         </p>
                       </div>
                     </div>
@@ -56,7 +58,7 @@ const Feauture = () => {
                       </div>
                       <div className="features-content">
                         <h4 className="feature-title">Fully Responsive</h4>
-                        <p>
+                        <p className="text-base">
                           {" "}
                           Lorem ipsum dolor sit amet, consectetur adipisicing
                           elit. Veniam tempora quidem vel sint.
@@ -71,7 +73,7 @@ const Feauture = () => {
                       </div>
                       <div className="features-content">
                         <h4 className="feature-title">Easy to Customize</h4>
-                        <p>
+                        <p className="text-base">
                           {" "}
                           Lorem ipsum dolor sit amet, consectetur adipisicing
                           elit. Veniam tempora quidem vel sint.

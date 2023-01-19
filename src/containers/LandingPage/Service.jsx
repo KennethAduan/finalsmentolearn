@@ -1,17 +1,27 @@
 import React from "react";
-
+import '../../styles/LandingPage/Service.css';
+import ServiceFuntion from "../../hooks/FeatureFunction";
 const Service = () => {
   return (
     <div>
+      <ServiceFuntion/>
       {/* <!-- Services Section Start --> */}
-      <section id="services" class="py-24">
+      <section id="services" class="py-28">
         <div class="container">
           <div class="text-center">
             <h2
               class="mb-12 section-heading wow fadeInDown"
-              data-wow-delay="2s"
+              data-wow-delay="0.2s"
             >
-              Our Mentors are awesome. They offer
+              <h1 class="ml1">
+                <span class="text-wrapper">
+                  <span class="line line1"></span>
+                  <span class="letters">
+                    Our Mentors is awesome, they offer
+                  </span>
+                  <span class="line line2"></span>
+                </span>
+              </h1>
             </h2>
           </div>
           <div class="flex flex-wrap">
@@ -23,7 +33,7 @@ const Service = () => {
                 </div>
                 <div>
                   <h3 class="service-title">Web Development</h3>
-                  <p class="text-gray-600">
+                  <p class="text-gray-600 text-xl">
                     Web development is the process of creating and maintaining
                     websites, including designing, coding, and implementing
                     features.
@@ -39,7 +49,7 @@ const Service = () => {
                 </div>
                 <div>
                   <h3 class="service-title">Graphic Design</h3>
-                  <p class="text-gray-600">
+                  <p class="text-gray-600 text-xl">
                     Graphic design is the art and practice of creating visual
                     content to communicate information and ideas.
                   </p>
