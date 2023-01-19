@@ -1,9 +1,9 @@
 import React from "react";
-import "./home.css";
-import AnimeFunction from "../Hooks/AnimeFunction";
-import MentoLearnLogoUpper from "../../Assets/images/MentoLearn1.png";
-import MainLogo from "../../Assets/images/MainLogo.png";
-import Footer from "../Footer/footer.jsx";
+import "../../styles/HomePage/HomePage.css";
+import AnimeFunction from "../../hooks/AnimeFunction.js";
+import MentoLearnLogoUpper from "../../assets/images/MentoLearn1.png";
+import MainLogo from "../../assets/images/MainLogo.png";
+import Footer from "../../components/Footer/FooterMain/Footer.jsx";
 import { Link } from "react-router-dom";
 const home = () => {
   return (
@@ -11,7 +11,7 @@ const home = () => {
       <div>
         <AnimeFunction />
         {/* MentoLearn logo */}
-        <div className="w-96 mt-4 ml-4">
+        <div className="w-48 mt-4 ml-4">
           <img src={MentoLearnLogoUpper} alt="Mento Learn Logo" />
         </div>
         <div className="text-center">

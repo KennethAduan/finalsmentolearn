@@ -6,10 +6,10 @@ import Service from "./Service";
 import Team from "./Team";
 import Footer from "../../components/Footer/FooterLanding/Footer";
 import WOW from "wow.js";
-import "../../styles/animate.css";
-import "../../styles/lineIcons.css";
-import "../../styles/Style.css";
-import "../../styles/tailwind.css";
+import "../../styles/LandingPage/animate.css";
+import "../../styles/LandingPage/lineIcons.css";
+import "../../styles/LandingPage/Style.css";
+import "../../styles/LandingPage/tailwind.css";
 const index = () => {
   new WOW().init();
   return (

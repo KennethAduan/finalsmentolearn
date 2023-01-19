@@ -16,7 +16,7 @@ const footer = () => {
           <li>
             <Link to="/about">
               {" "}
-              <a href="/" className="mr-4 hover:underline md:mr-6 ">
+              <a href="about" className="mr-4 hover:underline md:mr-6 ">
                 About
               </a>
             </Link>
