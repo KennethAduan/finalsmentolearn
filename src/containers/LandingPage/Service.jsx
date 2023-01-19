@@ -9,9 +9,9 @@ const Service = () => {
           <div class="text-center">
             <h2
               class="mb-12 section-heading wow fadeInDown"
-              data-wow-delay="0.3s"
+              data-wow-delay="2s"
             >
-              Our Services
+              Our Mentors are awesome. They offer
             </h2>
           </div>
           <div class="flex flex-wrap">
@@ -24,9 +24,9 @@ const Service = () => {
                 <div>
                   <h3 class="service-title">Web Development</h3>
                   <p class="text-gray-600">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Unde perspiciatis dicta labore nulla beatae quaerat quia
-                    incidunt laborum aspernatur...
+                    Web development is the process of creating and maintaining
+                    websites, including designing, coding, and implementing
+                    features.
                   </p>
                 </div>
               </div>
@@ -40,9 +40,8 @@ const Service = () => {
                 <div>
                   <h3 class="service-title">Graphic Design</h3>
                   <p class="text-gray-600">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Unde perspiciatis dicta labore nulla beatae quaerat quia
-                    incidunt laborum aspernatur...
+                    Graphic design is the art and practice of creating visual
+                    content to communicate information and ideas.
                   </p>
                 </div>
               </div>
@@ -56,9 +55,9 @@ const Service = () => {
                 <div>
                   <h3 class="service-title">Business Branding</h3>
                   <p class="text-gray-600">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Unde perspiciatis dicta labore nulla beatae quaerat quia
-                    incidunt laborum aspernatur...
+                    Business branding is the process of creating and
+                    establishing a unique identity for a company or
+                    organization.
                   </p>
                 </div>
               </div>
@@ -72,9 +71,10 @@ const Service = () => {
                 <div>
                   <h3 class="service-title">Content Writing</h3>
                   <p class="text-gray-600">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Unde perspiciatis dicta labore nulla beatae quaerat quia
-                    incidunt laborum aspernatur...
+                    Content writing is the process of creating written material,
+                    such as articles, blog posts, product descriptions, and
+                    marketing copy, for the purpose of engaging and informing an
+                    online audience.
                   </p>
                 </div>
               </div>
@@ -88,9 +88,9 @@ const Service = () => {
                 <div>
                   <h3 class="service-title">App Development</h3>
                   <p class="text-gray-600">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Unde perspiciatis dicta labore nulla beatae quaerat quia
-                    incidunt laborum aspernatur...
+                    App development is the process of designing, creating, and
+                    maintaining software applications for mobile devices, such
+                    as smartphones and tablets.
                   </p>
                 </div>
               </div>
@@ -104,9 +104,10 @@ const Service = () => {
                 <div>
                   <h3 class="service-title">Digital Marketing</h3>
                   <p class="text-gray-600">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Unde perspiciatis dicta labore nulla beatae quaerat quia
-                    incidunt laborum aspernatur...
+                    Digital marketing is the process of promoting products,
+                    services or brands through electronic media such as
+                    internet, mobile, social media, search engines, email, and
+                    other digital channels.
                   </p>
                 </div>
               </div>

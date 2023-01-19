@@ -11,7 +11,7 @@ const Header = () => {
         <div class="navigation fixed top-0 left-0 w-full z-30 duration-300">
           <div class="container">
             <nav class="navbar py-2 navbar-expand-lg flex justify-between items-center relative duration-300">
-              <a class="navbar-brand" href="/home">
+              <a class="navbar-brand" href="/">
                 <img className="w-72" src={Logo} alt="Logo" />
               </a>
               <button
@@ -40,7 +40,7 @@ const Header = () => {
                   </li>
                   <li class="nav-item">
                     <a class="page-scroll" href="#services">
-                      Services
+                      Courses
                     </a>
                   </li>
                   <li class="nav-item">
