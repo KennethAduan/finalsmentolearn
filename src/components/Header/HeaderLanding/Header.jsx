@@ -6,16 +6,16 @@ const Header = () => {
     <div>
       <HeaderEffect />
       {/* <!-- Header Area wrapper Starts --> */}
-      <header id="header-wrap" class="relative">
+      <header id="header-wrap" className="relative">
         {/* <!-- Navbar Start -->       */}
-        <div class="navigation fixed top-0 left-0 w-full z-30 duration-300">
-          <div class="container">
-            <nav class="navbar py-2 navbar-expand-lg flex justify-between items-center relative duration-300">
-              <a class="navbar-brand" href="/">
+        <div className="navigation fixed top-0 left-0 w-full z-30 duration-300">
+          <div className="container">
+            <nav className="navbar py-2 navbar-expand-lg flex justify-between items-center relative duration-300">
+              <a className="navbar-brand" href="/">
                 <img className="w-72" src={Logo} alt="Logo" />
               </a>
               <button
-                class="navbar-toggler focus:outline-none block lg:hidden"
+                className="navbar-toggler focus:outline-none block lg:hidden"
                 type="button"
                 data-toggle="collapse"
                 data-target="#navbarSupportedContent"
@@ -23,56 +23,56 @@ const Header = () => {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span class="toggler-icon"></span>
-                <span class="toggler-icon"></span>
-                <span class="toggler-icon"></span>
+                <span className="toggler-icon"></span>
+                <span className="toggler-icon"></span>
+                <span className="toggler-icon"></span>
               </button>
 
               <div
-                class=" lg:block duration-300 shadow absolute top-100 left-0 mt-full bg-white z-20 px-5 py-3 w-full lg:static lg:bg-transparent lg:shadow-none"
+                className=" lg:block duration-300 shadow absolute top-100 left-0 mt-full bg-white z-20 px-5 py-3 w-full lg:static lg:bg-transparent lg:shadow-none"
                 id="navbarSupportedContent"
               >
-                <ul class="navbar-nav mr-auto justify-center items-center lg:flex">
-                  <li class="nav-item">
-                    <a class="page-scroll active" href="#hero-area">
+                <ul className="navbar-nav mr-auto justify-center items-center lg:flex">
+                  <li className="nav-item">
+                    <a className="page-scroll active" href="#hero-area">
                       Home
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="page-scroll" href="#services">
+                  <li className="nav-item">
+                    <a className="page-scroll" href="#services">
                       Courses
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="page-scroll" href="#feature">
+                  <li className="nav-item">
+                    <a className="page-scroll" href="#feature">
                       feature
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="page-scroll" href="#team">
+                  <li className="nav-item">
+                    <a className="page-scroll" href="#team">
                       Team
                     </a>
                   </li>
-                  {/* <li class="nav-item">
-                    <a class="page-scroll" href="#testimonial">
+                  {/* <li className="nav-item">
+                    <a className="page-scroll" href="#testimonial">
                       Testimonial
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="page-scroll" href="#pricing">
+                  <li className="nav-item">
+                    <a className="page-scroll" href="#pricing">
                       Pricing
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="page-scroll" href="#contact">
+                  <li className="nav-item">
+                    <a className="page-scroll" href="#contact">
                       Contact
                     </a>
                   </li> */}
                 </ul>
               </div>
-              <div class="header-btn hidden sm:block sm:absolute sm:right-0 sm:mr-16 lg:static lg:mr-0">
+              <div className="header-btn hidden sm:block sm:absolute sm:right-0 sm:mr-16 lg:static lg:mr-0">
                 <a
-                  class="text-blue-600 border border-blue-600 px-10 py-3 rounded-full duration-300 hover:bg-blue-600 hover:text-white"
+                  className="text-blue-600 border border-blue-600 px-10 py-3 rounded-full duration-300 hover:bg-blue-600 hover:text-white"
                   href="#feature"
                 >
                   FAQ
@@ -87,9 +87,9 @@ const Header = () => {
       {/* <!-- Go to Top Link --> */}
       <a
         href="#header-wrap"
-        class="back-to-top w-10 h-10 fixed bottom-0 right-0 mb-5 mr-5 flex items-center justify-center rounded-full bg-blue-600 text-white text-lg z-20 duration-300 hover:bg-blue-400"
+        className="back-to-top w-10 h-10 fixed bottom-0 right-0 mb-5 mr-5 flex items-center justify-center rounded-full bg-blue-600 text-white text-lg z-20 duration-300 hover:bg-blue-400"
       >
-        <i class="lni lni-arrow-up"></i>
+        <i className="lni lni-arrow-up"></i>
       </a>
     </div>
   );

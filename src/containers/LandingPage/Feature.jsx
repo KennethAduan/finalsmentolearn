@@ -5,7 +5,7 @@ import FeatAnimation from "../../hooks/FeatureFunction";
 const Feauture = () => {
   return (
     <div>
-      <FeatAnimation/>
+      <FeatAnimation />
       {/* <!-- Feature Section Start --> */}
       <div id="feature" className="bg-blue-100 py-44">
         <div className="container">
@@ -63,8 +63,8 @@ const Feauture = () => {
                         <h4 className="feature-title">Fully Responsive</h4>
                         <p className="text-base">
                           {" "}
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Veniam tempora quidem vel sint.
+                          Our webapp is fully responsive, providing an optimal
+                          viewing and user experience across all devices.
                         </p>
                       </div>
                     </div>
@@ -78,8 +78,8 @@ const Feauture = () => {
                         <h4 className="feature-title">Easy to Customize</h4>
                         <p className="text-base">
                           {" "}
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Veniam tempora quidem vel sint.
+                          Our platform is easy to customize allows for
+                          simple and convenient modifications.
                         </p>
                       </div>
                     </div>
