@@ -1,5 +1,8 @@
 import React from "react";
-
+import Kenneth from "../../assets/LandingPage/Team/Kenneth.jpg";
+import Angeles from "../../assets/LandingPage/Team/angeles.jpg";
+import James from "../../assets/LandingPage/Team/james.jpg";
+import Isla from "../../assets/LandingPage/Team/Isla.jpg";
 const Team = () => {
   return (
     <div>
@@ -12,18 +15,19 @@ const Team = () => {
               data-wow-delay="0.3s"
             >
               Our Team
+              <br />
+              <span className="text-sm">
+                MentoLearn wouldn’t be possible without the brilliant team at
+                STI Pasay-EDSA. <br /> Take a peek at who’s behind it all.
+              </span>
             </h2>
           </div>
-          <div class="flex flex-wrap justify-center">
-            {/* <!-- Team Item Starts --> */}
+          <div class="flex flex-row justify-between">
+            {/* <!-- Team Item Starts --> Kenneth Aduan*/}
             <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
               <div class="team-item">
                 <div class="team-img relative">
-                  <img
-                    class="img-fluid"
-                    src="assets/img/team/img1.jpg"
-                    alt=""
-                  />
+                  <img class="img-fluid" src={Kenneth} alt="" />
                   <div class="team-overlay">
                     <ul class="flex justify-center">
                       <li class="mx-1">
@@ -60,15 +64,11 @@ const Team = () => {
               </div>
             </div>
             {/* <!-- Team Item Ends -->
-          <!-- Team Item Starts --> */}
+          <!-- Team Item Starts --> Angeles Tabrilla*/}
             <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
               <div class="team-item">
                 <div class="team-img relative">
-                  <img
-                    class="img-fluid"
-                    src="assets/img/team/img2.jpg"
-                    alt=""
-                  />
+                  <img class="img-fluid" src={Angeles} alt="" />
                   <div class="team-overlay">
                     <ul class="flex justify-center">
                       <li class="mx-1">
@@ -105,15 +105,11 @@ const Team = () => {
               </div>
             </div>
             {/* <!-- Team Item Ends -->
-          <!-- Team Item Starts --> */}
+          <!-- Team Item Starts --> James Mortel*/}
             <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
               <div class="team-item">
                 <div class="team-img relative">
-                  <img
-                    class="img-fluid"
-                    src="assets/img/team/img3.jpg"
-                    alt=""
-                  />
+                  <img class="img-fluid" src={James} alt="" />
                   <div class="team-overlay">
                     <ul class="flex justify-center">
                       <li class="mx-1">
@@ -150,15 +146,11 @@ const Team = () => {
               </div>
             </div>
             {/* <!-- Team Item Ends --> */}
-            {/* <!-- Team Item Starts --> */}
+            {/* <!-- Team Item Starts --> Isla*/}
             <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
               <div class="team-item">
                 <div class="team-img relative">
-                  <img
-                    class="img-fluid"
-                    src="assets/img/team/img3.jpg"
-                    alt=""
-                  />
+                  <img class="img-fluid" src={Isla} alt="" />
                   <div class="team-overlay">
                     <ul class="flex justify-center">
                       <li class="mx-1">
