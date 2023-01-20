@@ -8,10 +8,10 @@ import { Link } from "react-router-dom";
 const home = () => {
   return (
     <body className="">
+      <AnimeFunction />
       <div>
-        <AnimeFunction />
         {/* MentoLearn logo */}
-        <div className="w-48 mt-4 ml-4">
+        <div className="w-48 mt-4 ml-12">
           <img src={MentoLearnLogoUpper} alt="Mento Learn Logo" />
         </div>
         <div className="text-center">

@@ -8,7 +8,7 @@ const Mentor = () => {
   return (
     <div>
       <style></style>
-      <div className="w-96 mt-4 ml-4 ">
+      <div className="w-48 mt-4 ml-4 ">
         <a href="/">
           {" "}
           <img src={Logo} alt="MentoLearn Logo" />

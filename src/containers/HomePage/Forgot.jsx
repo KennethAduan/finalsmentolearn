@@ -7,7 +7,7 @@ const Forgot = () => {
     <div>
       <div className="h-screen">
         {/* Logo */}
-        <div className="w-96 mt-4 ml-4">
+        <div className="w-48 mt-4 ml-8">
           <a href="/">
             <img src={MentoLearnLogoUpper} alt="Mento Learn Logo" />
           </a>
@@ -42,7 +42,7 @@ const Forgot = () => {
             </div>
             {/* Back button */}
             <div className="back flex justify-center mt-4">
-              <a href="/">
+              <a href="/home">
                 <h1 className="font-bold">Back</h1>
               </a>
             </div>

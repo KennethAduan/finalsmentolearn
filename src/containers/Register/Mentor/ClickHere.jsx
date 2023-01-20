@@ -5,7 +5,7 @@ import Footer from "../../../components/Footer/FooterMain/Footer";
 const ClickHere = () => {
   return (
     <div>
-      <div className="w-96 mt-4 ml-4 ">
+      <div className="w-48 mt-4 ml-4 ">
         <a href="/">
           {" "}
           <img src={Logo} alt="Mento Learn Logo" />
