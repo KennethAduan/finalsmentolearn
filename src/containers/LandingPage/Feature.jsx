@@ -1,8 +1,11 @@
 import React from "react";
 import FeatImage from "../../assets/LandingPage/Feature/experts.svg";
+import FeatAnimation from "../../hooks/FeatureFunction";
+
 const Feauture = () => {
   return (
     <div>
+      <FeatAnimation/>
       {/* <!-- Feature Section Start --> */}
       <div id="feature" className="bg-blue-100 py-44">
         <div className="container">
@@ -10,7 +13,7 @@ const Feauture = () => {
             <div className="w-full lg:w-1/2">
               <div className="mb-5 lg:mb-0">
                 <h2
-                  className="mb-12 section-heading wow fadeInDown"
+                  className="ml2 mb-12 section-heading wow fadeInDown"
                   data-wow-delay="0.5s"
                 >
                   Learn More About Us

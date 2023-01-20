@@ -3,24 +3,28 @@ import Kenneth from "../../assets/LandingPage/Team/Kenneth.jpg";
 import Angeles from "../../assets/LandingPage/Team/angeles.jpg";
 import James from "../../assets/LandingPage/Team/james.jpg";
 import Isla from "../../assets/LandingPage/Team/Isla.jpg";
+import TeamAnimation from "../../hooks/TeamFunction";
+
 const Team = () => {
   return (
     <div>
+      <TeamAnimation />
       {/* <!-- Team Section Start --> */}
       <section id="team" class="py-24 text-center">
         <div class="container">
           <div class="text-center">
             <h2
-              class="mb-12 section-heading wow fadeInDown"
+              class="ml12 mb-4 section-heading wow fadeInDown"
               data-wow-delay="0.3s"
             >
               Our Team
-              <br />
-              <span className="text-sm">
+            </h2>
+            <div>
+              <h3 className="text-sm wow fadeInDown">
                 MentoLearn wouldn’t be possible without the brilliant team at
                 STI Pasay-EDSA. <br /> Take a peek at who’s behind it all.
-              </span>
-            </h2>
+              </h3>
+            </div>
           </div>
           <div class="flex flex-row justify-between">
             {/* <!-- Team Item Starts --> Kenneth Aduan*/}
