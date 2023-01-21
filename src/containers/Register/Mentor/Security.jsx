@@ -2,10 +2,22 @@ import React from "react";
 
 const Security = () => {
   return (
-    <div>
-      <div className="security mt-12">
-        <h1 className="text-blue-400 font-bold ml-2 text-3xl">Security</h1>
-        <hr className="line-bottom horizontal bg-blue-400 border-0  mt-2 p-0.5 mr-96 ml-2 "></hr>
+    <div className="security mt-12">
+      <div className="mb-8 mt-12 ml-8">
+        <div className="form-check">
+          <input
+            className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label
+            className="form-check-label inline-block text-gray-800 font-bold"
+            // for="flexCheckDefault"
+          >
+            I certify that above information are true and correct
+          </label>
+        </div>
       </div>
       <div className="notRobot mt-8 ml-8">
         <div className="rc-anchor rc-anchor-normal rc-anchor-light">
@@ -72,23 +84,7 @@ const Security = () => {
           </div>
         </div>
       </div>
-      <div className="mb-8 mt-12 ml-8">
-        <div className="form-check">
-          <input
-            className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
-            type="checkbox"
-            value=""
-            id="flexCheckDefault"
-          />
-          <label
-            className="form-check-label inline-block text-gray-800 font-bold"
-            // for="flexCheckDefault"
-          >
-            I certify that above information are true and correct
-          </label>
-        </div>
-      </div>
-      <hr className="line-bottom horizontal bg-blue-400 border-0  mt-2 p-0.5 mr-96 ml-2 "></hr>
+
       <div className="submitClearbtn mt-12 ml-8 mb-24 ">
         <button
           type="button"
@@ -98,12 +94,12 @@ const Security = () => {
         >
           Submit
         </button>
-        <button
+        {/* <button
           type="button"
           className="ml-12 inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-2xl leading-tight uppercase  shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out"
         >
           Clear
-        </button>
+        </button> */}
       </div>
     </div>
   );
