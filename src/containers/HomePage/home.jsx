@@ -12,7 +12,9 @@ const home = () => {
       <div>
         {/* MentoLearn logo */}
         <div className="w-48 mt-4 ml-12">
-          <img src={MentoLearnLogoUpper} alt="Mento Learn Logo" />
+          <Link to="/">
+            <img src={MentoLearnLogoUpper} alt="Mento Learn Logo" />
+          </Link>
         </div>
         <div className="text-center">
           {" "}
