@@ -19,8 +19,8 @@ const Team = () => {
             >
               Our Team
             </h2>
-            <div>
-              <h3 classNameName="text-sm wow fadeInDown">
+            <div className="wow fadeInDown">
+              <h3 classNameName="text-sm ">
                 MentoLearn wouldn’t be possible without the brilliant team at
                 STI Pasay-EDSA. <br /> Take a peek at who’s behind it all.
               </h3>

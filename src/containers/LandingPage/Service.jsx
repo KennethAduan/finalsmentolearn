@@ -1,10 +1,10 @@
 import React from "react";
-import '../../styles/LandingPage/Service.css';
-import ServiceFuntion from "../../hooks/FeatureFunction";
+import "../../styles/LandingPage/Service.css";
+import ServiceFuntion from "../../hooks/ServiceFunction.js";
 const Service = () => {
   return (
     <div>
-      <ServiceFuntion/>
+      <ServiceFuntion />
       {/* <!-- Services Section Start --> */}
       <section id="services" className="py-28">
         <div className="container">
