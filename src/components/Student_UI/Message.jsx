@@ -6,8 +6,8 @@ import RateReviewIcon from "@mui/icons-material/RateReview";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 const Message = () => {
   return (
-    <div className="flex">
-      <div className="bg-white flex w-96 h-12">
+    <div className="mt-20 grid justify-items-end">
+      <div className="bg-white flex justify-between w-96 h-12">
         <div>
           {" "}
           {/* User Profile */}
@@ -22,16 +22,16 @@ const Message = () => {
         <div>
           <p className="text-black text-sm mt-4 font-bold">Messaging</p>
         </div>
-      </div>
-      <div className="flex mt-2 -ml-12">
-        <div className="">
-          <MoreHorizIcon />
-        </div>
-        <div>
-          <RateReviewIcon />
-        </div>
-        <div>
-          <KeyboardArrowUpIcon />
+        <div className="flex mt-2 -ml-12">
+          <div className="">
+            <MoreHorizIcon />
+          </div>
+          <div>
+            <RateReviewIcon />
+          </div>
+          <div>
+            <KeyboardArrowUpIcon />
+          </div>
         </div>
       </div>
     </div>

@@ -11,8 +11,11 @@ import Mentor from "./containers/Register/Mentor/Mentor";
 import RegistrationMentor from "./containers/Register/Mentor/Registration";
 import ForgotPass from "./containers/HomePage/Forgot";
 import MainStudent from "./containers/MainPage/StudentUI/index";
+// import NewsFeed from "./containers/MainPage/StudentUI/NewsFeed";
+import Dashboard from "./containers/MainPage/StudentUI/Dashboard.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import Task from "./components/Student_UI/Dashboard_UI/Task";
+import SideBar from "./components/Student_UI/SideBar";
 function App() {
   return (
     <BrowserRouter>
@@ -29,6 +32,10 @@ function App() {
         <Route path="/registrationMentor" element={<RegistrationMentor />} />
         <Route path="/forgotPass" element={<ForgotPass />} />
         <Route path="/MainStudent" element={<MainStudent />} />
+        <Route path="/News Feed" element={<MainStudent />} />
+        <Route path="/Dashboard" element={<Dashboard />} />
+        <Route path="/Sidebar" element={<SideBar />} />
+        <Route path="/Task" element={<Task />} />
       </Routes>
     </BrowserRouter>
   );
