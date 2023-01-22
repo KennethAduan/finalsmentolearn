@@ -36,6 +36,7 @@ function App() {
         <Route path="/Dashboard" element={<Dashboard />} />
         <Route path="/Sidebar" element={<SideBar />} />
         <Route path="/Task" element={<Task />} />
+        <Route Path="/Sign out" element={<HomePage />} />
       </Routes>
     </BrowserRouter>
   );

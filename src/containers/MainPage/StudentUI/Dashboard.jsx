@@ -9,6 +9,7 @@ const Dashboard = () => {
       <div>
         <Header />
       </div>
+      {/* //TODO: This should be one page function */}
       <div className="flex justify-around mt-12 ">
         <div className="bg-white border border-black w-full h-screen ml-12 mr-12">
           {/* Side bar */}
