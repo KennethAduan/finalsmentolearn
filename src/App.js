@@ -10,6 +10,7 @@ import ClickHere from "./containers/Register/Mentor/ClickHere";
 import Mentor from "./containers/Register/Mentor/Mentor";
 import RegistrationMentor from "./containers/Register/Mentor/Registration";
 import ForgotPass from "./containers/HomePage/Forgot";
+import MainStudent from "./containers/MainPage/StudentUI/index";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/mentor" element={<Mentor />} />
         <Route path="/registrationMentor" element={<RegistrationMentor />} />
         <Route path="/forgotPass" element={<ForgotPass />} />
+        <Route path="/MainStudent" element={<MainStudent />} />
       </Routes>
     </BrowserRouter>
   );
